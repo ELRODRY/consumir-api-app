@@ -51,15 +51,13 @@ function App() {
             onChange={(event) => handleChange(event.target.value)} // maneja la entrada en el imput
           />
         </form>
-        <div id="gifsContainer">
-          {gifValue.map((element) => <GifsCard data={element} key={element.id} />)}
-
-        </div>
-
 
       </div>
 
+      <div id="gifsContainer">
+        {gifValue.map((element) => <GifsCard data={element} key={element.id} />)}
 
+      </div>
 
 
     </>
