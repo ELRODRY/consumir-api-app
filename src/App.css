@@ -9,17 +9,20 @@ header {
   display: flex;
   justify-content: center;
   font-size: 40px;
-  padding-top: 20px;
-}
-
-#contenedor {
-  border: 1px solid;
-  border-color: rgb(255, 255, 0);
-  background-color: rgb(14, 218, 218);
+  align-items: center;
+  padding: 15px;
+  color: aliceblue;
 }
 
 #gifsContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#buscador {
+  border: 1px solid moccasin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

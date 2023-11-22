@@ -42,7 +42,10 @@ function App() {
   return (
     <>
       <div id="contenedor">
-        <header>Buscador de Gifs</header>
+        <header id="titulo">Buscador de Gifs</header>
+      </div>
+
+      <div id="buscador" >
         <form onSubmit={(event) => handleSubmit(event)}> {/* form por defecto al apretar enter envia la informacion*/}
           <input         // primera implementación en el codigo luego lo pusimos en un form para poder enviar la información
             type='text'
@@ -51,10 +54,9 @@ function App() {
             onChange={(event) => handleChange(event.target.value)} // maneja la entrada en el imput
           />
         </form>
-
       </div>
-
       <div id="gifsContainer">
+
         {gifValue.map((element) => <GifsCard data={element} key={element.id} />)}
 
       </div>
