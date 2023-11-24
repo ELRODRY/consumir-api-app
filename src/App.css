@@ -26,3 +26,10 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+#inputBox {
+  border-radius: 25px;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+}

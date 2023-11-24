@@ -47,7 +47,7 @@ function App() {
 
       <div id="buscador" >
         <form onSubmit={(event) => handleSubmit(event)}> {/* form por defecto al apretar enter envia la informacion*/}
-          <input         // primera implementación en el codigo luego lo pusimos en un form para poder enviar la información
+          <input id="inputBox"        // primera implementación en el codigo luego lo pusimos en un form para poder enviar la información
             type='text'
             placeholder='Ingresa el nombre del gif'
             value={inputValue}
