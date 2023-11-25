@@ -7,7 +7,6 @@ function App() {
 
   const [gifValue, setGifValue] = useState([]) // Guarda los valores gifs de la peticion (id, title, url) 
   console.log("gggifValue", gifValue)
-  console.log("testConfictoBorrarLuego")
 
   const getGifs = async () => {
     const url = `https://api.giphy.com/v1/gifs/search?api_key=7JJXc7YLPD50sqqk7b1V057VlEYL18Jp&q=${inputValue}`;
