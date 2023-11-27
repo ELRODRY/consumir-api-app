@@ -2,7 +2,7 @@ import React from "react";
 import "./gifCardStyles.css";
 function GifsCard({ data }) {
     return (
-        <div className="testCard">
+        <div className="testCard" style={{ back: "1px solid red" }}>
             <div className="imgContainer">
                 <img
                     className="image"
