@@ -41,7 +41,13 @@ function App() {
   return (
     <>
       <div id="contenedor">
-        <header id="titulo">Buscador de Gifs</header>
+        <header id="titulo">
+          <h1>Buscador de Gifs</h1>
+          <p id="texHeader"> Ingresa en el buscador el nombre del gif o del tema que busques. <br />
+            Abajo del gif aparecera el enlace a la fuente del Gif.  <br />
+            Que lo disfrutes.
+          </p>
+        </header>
       </div>
 
       <div id="buscador">

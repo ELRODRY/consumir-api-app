@@ -2,7 +2,7 @@ import React from "react";
 import "./gifCardStyles.css";
 function GifsCard({ data }) {
     return (
-        <div className="testCard" style={{ back: "1px solid red" }}>
+        <div className="testCard">
             <div className="imgContainer">
                 <img
                     className="image"
@@ -11,9 +11,12 @@ function GifsCard({ data }) {
                     key={data.id}
                 />
             </div>
-
-            <p className="nameContainer">{data.title}</p>
+            <div className="pieDeGifs">
+                <p className="nameContainer">{data.title}</p>
+                <a href={data.url.url} target="_blank" >Click aqui Fuente del enlace</a>
+            </div>
         </div>
+
     );
 }
 
