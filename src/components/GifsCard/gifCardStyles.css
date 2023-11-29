@@ -33,3 +33,25 @@ a {
   align-items: center;
   flex-direction: column;
 }
+
+@media (max-width: 420px) {
+  .imgContainer {
+    height: 300px;
+    width: 300px;
+  }
+
+  .pieDeGifs {
+    width: 300px;
+  }
+}
+
+@media (max-width: 310px) {
+  .imgContainer {
+    height: 200px;
+    width: 200px;
+  }
+
+  .pieDeGifs {
+    width: 200px;
+  }
+}

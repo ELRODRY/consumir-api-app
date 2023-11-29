@@ -20,7 +20,7 @@ h1 {
   font-size: 40px;
 }
 
-#texHeader {
+#textHeader {
   color: rgb(0, 0, 0);
   font-weight: bold;
   -webkit-text-stroke-width: 1px;
@@ -50,7 +50,27 @@ h1 {
   border-radius: 25px;
   text-align: center;
   font-size: 1.5rem;
-  width: 100%;
+  width: 400px;
   outline: 3px solid;
   outline-color: rgb(0, 217, 255);
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  #textHeader {
+    font-size: 20px;
+  }
+
+  #inputBox {
+    width: 300px;
+  }
+}
+
+@media (max-width: 310px) {
+  #inputBox {
+    width: 200px;
+  }
 }
