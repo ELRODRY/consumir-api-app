@@ -12,7 +12,7 @@ function GifsCard({ data }) {
                 />
             </div>
             <div className="pieDeGifs">
-                <p className="nameContainer">{data.title}</p>
+                <p>{data.title}</p>
                 <a href={data.url.url} target="_blank">
                     Click aqui Fuente del enlace
                 </a>

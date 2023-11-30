@@ -40,19 +40,19 @@ function App() {
 
   return (
     <>
-      <div id="contenedor">
-        <header id="titulo">
-          <h1>Buscador de Gifs</h1>
-          <p id="textHeader"> Ingresa en el buscador el nombre del gif o del tema que busques. <br />
-            Abajo del gif aparecera el enlace a la fuente del Gif.  <br />
-            Que lo disfrutes.
-          </p>
-        </header>
-      </div>
+      <header id="titulo">
+        <h1>Buscador de Gifs</h1>
+        <p id="textHeader">
+          {" "}
+          Ingresa en el buscador el nombre del gif o del tema que busques.{" "}
+          <br />
+          Abajo del gif aparecera el enlace a la fuente del Gif. <br />
+          Que lo disfrutes.
+        </p>
+      </header>
 
       <div id="buscador">
         <form onSubmit={(event) => handleSubmit(event)}>
-
           {/* form por defecto al apretar enter envia la informacion*/}
           <input
             id="inputBox" // primera implementación en el codigo luego lo pusimos en un form para poder enviar la información
@@ -63,7 +63,7 @@ function App() {
           />
         </form>
       </div>
-      <div id="gifsContainer" style={{ gap: "1rem" }}>
+      <div id="gifsContainer">
         {gifValue.map((element) => (
           <GifsCard data={element} key={element.id} />
         ))}
