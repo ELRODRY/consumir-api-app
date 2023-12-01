@@ -14,21 +14,23 @@ header {
 h1 {
   color: rgb(0, 0, 0);
   font-weight: bold;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(231, 0, 252);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
+  text-shadow: 2px 2px 0 #e700fc, 1px -1px 0 #e700fc, -1px 1px 0 #e700fc,
+    -1px -1px 0 #e700fc, 1px 0px 0 #e700fc, 0px 1px 0 #e700fc,
+    -1px 0px 0 #e700fc, 0px -1px 0 #e700fc;
 }
 
 #textHeader {
   color: rgb(0, 0, 0);
   font-weight: bold;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(2, 212, 65);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   margin-top: 20px;
   text-align: center;
+  text-shadow: 2px 2px 0 #02d441, 1px -1px 0 #02d441, -1px 1px 0 #02d441,
+    -1px -1px 0 #02d441, 1px 0px 0 #02d441, 0px 1px 0 #02d441,
+    -1px 0px 0 #02d441, 0px -1px 0 #02d441;
 }
 
 #gifsContainer {
